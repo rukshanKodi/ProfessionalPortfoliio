@@ -1,15 +1,93 @@
-* {
-    font-family: sans-serif;
-    line-height: 1.614em;
-    margin: 0;
-    padding: 0;
+body {
+  margin: 40px;
 }
-nav{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-display: flex;
-flex-flow: row; 
+
+.sidebar {
+    grid-area: sidebar;
+  }
+
+  .content {
+    grid-area: content;
+    height: calc(100vh - 204px);
+    overflow: auto;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+
+
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:1200px 600px; 
+    grid-template-areas:
+    "header header"
+    "content sidebar"
+    "footer footer";
+    background-color: #fff;
+    color: #444;
+  }
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.header,
+.footer {
+  background-color: #999;
+}
+
+
+/* nav{
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  background-color: transparent;
+} */
+
+#aboutme {
+	display: none;
+}
+
+#abouteducation {
+	display: none;
+}
+
+
+.images{
+
+  display: flex;
 justify-content: center;
+ scale: 50%;
+height: 5px;
+
 }
+
+li{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
