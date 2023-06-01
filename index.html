@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<title> Document </title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
 </head>
+
 <body>
-<header>
-<H1>code Business</H1>
-<span>Our Business is code</span>
-</header>
-<main>
+  <script>
+    function funcAboutMeView() {
+      var x = document.getElementById("aboutme");
+      Element.innerHtml="";
+      x.style.display = "block";
+    }
+  </script>
+    <script>
+      function funcEduView() {
+        var x = document.getElementById("abouteducation");
+        Element.innerHtml="";
+        x.style.display = "block";
+      }
+    </script>
+  <div id="root">
+    <div class="wrapper">
+      <div class="box header">Header</div>
+      <div class="box sidebar">
+        <p>Sidebar</p>
 
-<section id="aboutus"><h2>about us</h2><p>sample text</p>
-</section>
-<section id="ourproducts"><h2>our products</h2>
-    <div id="products">
-<article>
-<h3>Product A</h3>
-<img src="./images/producta.jpg" alt="Product A">
-<P>Product Description A</P>
-</article>
-<article>
-    <h3>Product b</h3>  
-    <img src="./images/productb.jpg" alt="Product B">
-<P>Product Description B</P> 
-</article>
-<h3>Product c</h3>
-<img src="./images/productc.jpg" alt="Product C">
-<P>Product Description C</P>
-<article>
-    
-</article>
-
-
-    </div>
-</section>
-<section id="getintouch"><h2>get in touch</h2>
-<p>we would be more than happy to help</p>
+        <div class="box sidebar images">
 <ul>
-    <li>Email:<a herf="aa.gmail.com">aa.gmail.com </a></li>
-    <li>Phone: 123456456</li>
+  <li><img src="https://drive.google.com/uc?id=1lnkQDZIaVqfbW-fsn7uD3hG39t78rNlE" alt="Product A" width="500" height="500" onclick="funcAboutMeView()" />My Experiences</li>
+  <li><img src="https://drive.google.com/uc?id=1zxsqIFlMgJx2onL1l68JuxPegSZ25W_8" alt="Product A" width="500" height="500" />My hobby's</li>
 </ul>
-</section>
+<ul>
+  <li><img src="https://drive.google.com/uc?id=1NB7oO1STnpKJ2zxfsX7lX-RDXyijnxYE" alt="Product A" width="500" height="500" onclick="funcEduView()" />My Education</li>
+  <li><img src="https://drive.google.com/uc?id=191Sine0KXkkRYGkdWuZGDcEzMsp1TMH-" alt="Product A" width="500" height="500" />My CSR</li>
+</ul>
+</div>
 
-</main>
-<nav>
-<a href="#aboutus"> About us</a>
-<a href="#ourproducts"> our products</a>
-<a href="#getintouch"> get in touch</a>
-</nav>
-<footer>
-&copy; 2023 Code Business
-</footer>
-</body> 
+      </div>
+      <div class="box content">Content
+        <br /> 
+<div class="maincontent">
+        <section id="aboutme" class="clsaboutme">
+          <h2>about me</h2>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+          <p>sample text</p>
+
+        </section>
+
+        <section id="abouteducation" class="clseducation">
+          <h2>about education</h2>
+          <p>sample text education</p>
+        </section>
+      </div>
+      </div>
+      <div class="box footer">Footer</div>
+
 </html>
