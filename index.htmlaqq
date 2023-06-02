@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+
+</head>
+
+<body>
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <div id="root">
+    <div class="wrapper">
+      <div class="box header">
+        <div class="headerFont">RUKSHAN KODITHUWAKKU</div>
+      </div>
+      <div class="box sidebar">
+        <!-- <div><img src="https://drive.google.com/uc?id=1ZqnXp1vtrcVWOtWTJXmzpCcEYwQWzPrT" alt="me" width="200px"
+            height="200px" />
+        </div> -->
+        <div><a href="https://github.com/rukshanKodi"><img
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="myGithub"
+              width="200px" height="200px" />
+        </div>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark"
+          data-type="VERTICAL" data-vanity="rukshan-kodithuwakku-3aa2494a" data-version="v1"><a
+            class="badge-base__link LI-simple-link"
+            href="https://www.linkedin.com/in/rukshan-kodithuwakku-3aa2494a?trk=profile-badge" width="100px"
+            height="100px"></a>
+        </div>
+      </div>
+      <div class="box content">
+
+        <div class="centerbox">
+          <div class="cbsquare">
+            <div class="cbcontent">
+              <div><img src="https://drive.google.com/uc?id=1ZqnXp1vtrcVWOtWTJXmzpCcEYwQWzPrT" alt="me" width="200px"
+                  height="200px" /></div>
+              <a class="contentFont">
+                <div class="headerFont">RUKSHAN KODITHUWAKKU</div>QA ANALYST B.Com(SP) Uni of Kelaniya Sri Lanka
+              </a>
+
+              <P>I am a competent IT professional with a proven track record in Software Quality Assurance for around 8
+                years.<br><br>
+                <strong>Software Quality Assurance</strong> in <strong>Finance module</strong> is the key strength of
+                myself and i have worked in reputed companies for various kinds of domains.
+              </P>
+              <P><a class="contentFont">
+                  <div class="headerFont"></div>EXPERIENCE
+                </a></P>
+              <table>
+
+                <tr>
+                  <td><button class="tagbtton">HTML</button></td>
+                  <td><button class="tagbtton">CSS</button></td>
+                  <td><button class="tagbtton">JAVASCRIPT</button></td>
+                  <td><button class="tagbtton">FINANCE</button></td>
+                </tr>
+                <tr>
+                  <td><button class="tagbtton">JAVA</button></td>
+                  <td><button class="tagbtton">SELINIUM</button></td>
+                  <td><button class="tagbtton">JIRA</button></td>
+                  <td><button class="tagbtton">PROJECT MANAGEMENT</button></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box footer footerFont" style="font-family:'Noto Sans JP', sans-serif">© Copyright 2023</DIV>
+
+    </div>
+  </div>
+  </div>
+
+</html>
